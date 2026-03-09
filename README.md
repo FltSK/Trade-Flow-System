@@ -22,6 +22,16 @@
 
 ---
 
+## Mimari
+
+Bu proje **client–server** ve **katmanlı (layered)** mimaride geliştirilmiştir:
+
+- **Backend:** ASP.NET Core Web API — Controllers (HTTP), Services (iş mantığı), Data (DbContext / EF Core) katmanları; REST API + JWT kimlik doğrulama ve SignalR ile gerçek zamanlı iletişim.
+- **Frontend:** Tek sayfa uygulaması (SPA) — React bileşen tabanlı yapı; Context (Auth, RealTime), sayfalar ve ortak bileşenler; Axios ile API, SignalR ile anlık bildirimler.
+- **İletişim:** REST (JSON) + SignalR WebSocket; CORS ile ayrı domain'lerde çalışacak şekilde yapılandırılmıştır.
+
+---
+
 ## Teknolojiler
 
 ### Backend (TradeFlowSystemAPI)
