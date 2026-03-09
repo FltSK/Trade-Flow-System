@@ -1,0 +1,10 @@
+[33m7abfd70[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Fix login loop: remove [Authorize] from CustomersController, fix CORS in Program.cs, strengthen token saving in frontend
+[33mdeb424f[m Ödeme ve adres düzeltmeleri: ön ödeme format temizliği, tablo ödeme 3lü gösterim, adres parse
+[33md3bd99e[m feat: müşteri sayfası mobil düzenle butonu, adres alanları (Cd./Sk./adresEk), tablo ve label iyileştirmeleri, favicon, randevu API URL düzeltmesi
+[33mab010db[m fix: server build (remove global CORS filter + HealthChecks AddDbContext)
+[33m1749f3f[m feat: CORS improvements, global error handling, health checks, SignalR settings
+[33m8984980[m Fix: Syntax error in helpers.js - properly comment out console.error
+[33m447f286[m Fix: Restore vite.config.js settings to fix JavaScript runtime error
+[33mc5eeb04[m Security: Added [Authorize] attribute to all remaining controllers
+[33m76a2fa8[m Major improvements: Fixed stock calculation, partial allocation system, removed debug codes, and UI enhancements
+[33mcc96c5d[m Fix: API endpoint URLs - added /api prefix for proper routing

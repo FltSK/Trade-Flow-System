@@ -1,0 +1,6 @@
+@TradeFlowSystemAPI_HostAddress = http://localhost:5012
+
+GET {{TradeFlowSystemAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

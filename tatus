@@ -1,0 +1,5 @@
+[33m90c6e86[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m feat(front): ClientPage/Dashboard sozlesme onizleme blob URL (AUTH headersiz iframe/img)
+[33mccd6b99[m feat(front): sozlesme onizleme  dialog icinde blob ile PDF/image gosterimi
+[33m66e4e10[m feat(front): sozlesme onizleme iyilestirmeleri (blob url + yeni sekme + iframe yenileme)
+[33m0ccc69d[m feat(front): sozlesme onizleme blob ile yeni sekmede acma; JobInfoDialog entegrasyonu
+[33m1968835[m feat: server-ready config: Swagger dev-only; env-based frontend URLs; CORS via config; admin can delete employees; employee dialog live refresh; upload DTO

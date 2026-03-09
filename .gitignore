@@ -1,0 +1,17 @@
+# Backend build outputs
+TradeFlowSystemAPI/bin/
+TradeFlowSystemAPI/obj/
+
+# Hassas yapılandırma (asla commit etmeyin)
+TradeFlowSystemAPI/appsettings.Development.json
+**/appsettings.Development.json
+.env
+.env.local
+.env.*.local
+*.user
+
+# Frontend build outputs (if any copied here)
+dist/
+node_modules/
+
+
